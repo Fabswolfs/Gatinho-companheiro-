@@ -17,7 +17,7 @@ jobs:
         run: |
           rm -rf project
           mkdir project
-          unzip -q GatinhoCompanheiro-v1.1-revisado.zip -d project
+          unzip -q GatinhoCompanheiro-v1.2-corrigido.zip -d project
           test -f project/settings.gradle.kts
 
       - name: Configurar Java 17
