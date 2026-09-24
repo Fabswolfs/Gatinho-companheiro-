@@ -15,7 +15,7 @@ jobs:
 
       - name: Extrair projeto
         run: |
-          rm -rf project
+          mkdir -p project
           mkdir project
           unzip -q GatinhoCompanheiro-v1.3-corrigido.zip -d project
           test -f project/settings.gradle.kts
